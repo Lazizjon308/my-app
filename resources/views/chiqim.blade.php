@@ -2,7 +2,7 @@
 <html lang="uz">
 <head>
     <meta charset="UTF-8" />
-    <title>Kirim Formasi</title>
+    <title>Chiqim Formasi</title>
     <style>
         body {
             background-color: #121212;

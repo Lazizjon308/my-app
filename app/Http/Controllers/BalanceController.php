@@ -12,6 +12,7 @@ class BalanceController extends Controller{
         return view('kirim');
     }
 
+
     public function minusBalance(){
         return view('chiqim');
     }
@@ -27,7 +28,7 @@ class BalanceController extends Controller{
             $description = $_POST['description'];
 
 
-            echo $amount;
+            return view('home');
         } else {
             echo "Noto‘g‘ri so‘rov!";
         }

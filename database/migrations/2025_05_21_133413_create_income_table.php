@@ -9,18 +9,17 @@ return new class extends Migration
 
     public function up(): void
     {
-        Schema::create('expenses', function (Blueprint $table) {
+        Schema::create('incomes', function (Blueprint $table) {
             $table->id();
-            $table->string('kirim_turi');
-            $table->decimal('qiymati', 15, 2);
-            $table->timestamp('recorded_at');
+            $table->string('source');       // kirim manbai
+            $table->decimal('amount', 15, 2); // summasi
+            $table->timestamp('received_at'); // kelgan vaqti
             $table->timestamps();
         });
     }
 
-
     public function down(): void
     {
-        Schema::dropIfExists('expenses');
+        Schema::dropIfExists('incomes');
     }
 };
