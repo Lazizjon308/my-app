@@ -16,6 +16,7 @@ services:
         image: postgres:15
         container_name: my-project-db
         environment:
+            POSGRES_DB: ${DB_HOST}
             POSTGRES_DB: ${DB_DATABASE}
             POSTGRES_USER: ${DB_USERNAME}
             POSTGRES_PASSWORD: ${DB_PASSWORD}
