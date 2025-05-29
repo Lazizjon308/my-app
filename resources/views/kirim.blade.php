@@ -43,13 +43,13 @@
 <html lang="uz">
 <head>
     <meta charset="UTF-8" />
-    <title>Chiqim Formaaasi</title>
+    <title>Kirim Formaasi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-dark text-light">
 
 <div class="container mt-5" style="max-width: 500px;">
-    <h2 class="text-center text-info mb-4">➖ Chiqim Ma'lumotlari</h2>
+    <h2 class="text-center text-info mb-4">➖ Kirim Ma'lumotlari</h2>
 
     <form action="amountPlus" method="post">
             @csrf
