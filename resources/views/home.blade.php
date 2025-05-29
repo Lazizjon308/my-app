@@ -11,7 +11,7 @@
     <h2 class="text-center mb-4 fw-semibold">💼 Balans Menyusi</h2>
 
     <a href="/increase" class="btn btn-light btn-lg w-100 mb-3 fw-semibold text-dark">➕ Kirim</a>
-    <a href="/decrease" class="btn btn-light btn-lg w-100 mb-3 fw-semibold text-dark">➖ Chiqim</a>
+    <a href="/decrease" class="btn btn-light btn-lg w-100 mb-3 fw-semibold text-dark">➖ Chiqiim</a>
     <a href="/transactions" class="btn btn-light btn-lg w-100 fw-semibold text-dark">📜 Tranzaksiyalar tarixi</a>
 </div>
 
