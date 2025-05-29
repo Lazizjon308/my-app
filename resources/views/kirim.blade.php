@@ -43,7 +43,7 @@
 <html lang="uz">
 <head>
     <meta charset="UTF-8" />
-    <title>Chiqim Formasi</title>
+    <title>Chiqim Formaaasi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-dark text-light">
